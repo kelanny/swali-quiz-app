@@ -1,0 +1,33 @@
+
+### 2. `.gitignore`
+
+This file ensures that certain files (like environment configurations and dependencies) are not tracked by Git.
+
+**Sample content for `.gitignore`:**
+
+```bash
+# Python files
+*.py[cod]
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Migrations
+migrations/
+
+# Flask/Django-specific files
+instance/
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db

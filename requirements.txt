@@ -1,0 +1,12 @@
+Flask              # Core framework for the app
+Flask-WTF          # Flask extension for forms (useful for quizzes and auth)
+Flask-Login 	   # User authentication management
+Flask-SQLAlchemy   # ORM for database management
+Flask-Migrate     # For handling database migrations
+Flask-RESTful      # To add REST API functionality (optional)
+Flask-Bcrypt       # For password hashing and security
+WTForms            # To help with form validation
+gunicorn          # Production server
+pytest            # Testing framework
+python-dotenv    # For managing environment variables
+
